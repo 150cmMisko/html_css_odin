@@ -1,0 +1,170 @@
+* {
+  font-family: Roboto;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border: 3px solid #3882F6;
+  border-radius: 10px;
+}
+
+.hero,
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  text-align: center;
+}
+
+.hero.header,
+.hero.main {
+  display: flex;
+  width: 68%;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+#id {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.hero.nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.secondary {
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.hero.main {
+  padding: 100px 0;
+}
+
+.hero.main article {
+  text-align: left;
+  width: 50%;
+}
+
+.hero.main h2 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero.main p {
+  line-height: 22px;
+}
+
+.signup-btn {
+  margin: 15px 0 0 0;
+  background-color: #3882F6;
+  color: #E5E7EB;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0px;
+  border-radius: 10px;
+  padding: 7px 30px;
+  transition: 0.2s;
+
+}
+
+.hero.main img {
+  width: 30%;
+  height: auto;
+  border: none;
+}
+
+main sec {
+  text-align: center;
+  color: #1F2937;
+  font-size: 15px;
+}
+
+.services,
+.quote,
+.signup {
+  padding: 50px 20%;
+  text-align: center;
+}
+
+.services h3 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.services-cont {
+  display: flex;
+  padding: 50px 0;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+  text-align: left;
+}
+
+#quote-text {
+  padding: 50px 0 0 0;
+}
+
+#quote-autor {
+  text-align: right;
+  font-size: 22px;
+  font-weight: 900;
+  font-style: normal;
+  padding: 0 0 50px 0;
+}
+
+.signup {
+  background-color: #3882F6;
+  display: flex;
+  width: 65%;
+  height: 30px;
+  margin: 100px auto;
+  color: #F9FAF8;
+  text-align: left;
+  padding: 60px 125px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.signup h3 {
+  font-size: 23px;
+}
+
+.signup .signup-btn {
+  border: 2px solid #F9FAF8;
+  padding: 5px 35px;
+}
+
+.signup-btn:hover {
+  cursor: pointer;
+}
+
+.signup-btn:active {
+  background-color: #F9FAF8;
+  color: #1F2937;
+}
+
+.footer {
+  padding: 40px 0;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
